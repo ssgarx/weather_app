@@ -10,7 +10,7 @@ function Weather(props) {
 
 
 
-    var apiUrl = "http://api.weatherstack.com/current?access_key=55650747f0639e2b5a33f491d102a4ff&query=" + props.inputCity;
+    var apiUrl = "https://api.weatherstack.com/current?access_key=55650747f0639e2b5a33f491d102a4ff&query=" + props.inputCity;
 
     useEffect(() => {
         axios.get(apiUrl)
