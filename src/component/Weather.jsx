@@ -27,8 +27,7 @@ function Weather(props) {
                 console.log(error);
             })
 
-
-    });
+    }, []);
 
     return <>
         {!isFetching && <div className="border mt-2">
